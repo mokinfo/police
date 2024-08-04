@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Santé - Police - National</title>
+  
+  <link rel="icon" href="dist/img/police.png">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: table;
+        font-weight: 100;
+        font-family: 'Lato';
+    }
+    .gauch {
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        background-color: #17a5e9;
+    }
+    img[Attributes Style] {
+        width: 295px;
+        aspect-ratio: auto 295 / 352;
+        height: 352px;
+    }
+    
+  </style>
+<body>
+
+        <div class="gauch">
+            <img src="dist/img/police.png" width="295" height="352">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="title">Santé Police National</div>
+                <form action="login.php" method="POST" name="logonForm">  
+                <div class="signInInputLabel" id="userNameLabel" aria-hidden="true">Utilisateur :</div>
+                <div><input id="username" name="user" class="signInInputText" role="textbox" aria-labelledby="userNameLabel"></div>
+                <div class="signInInputLabel" id="passwordLabel" aria-hidden="true"><br><br>Mot de passe :</div>
+                <div><input id="password" onfocus="g_fFcs=0" name="pass" value="" type="password" class="signInInputText" aria-labelledby="passwordLabel"></div><br>
+                <!--ADSSP-->
+                <div class="signInInputLabel" style="font-size:12px;font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;"><a style="text-decoration:none;color:#17a5e9;" target="_blank" href="#"><br><br>Mot de passe oublié ?</a></div>
+                <div class="errormessage" style="font-size:13px; color:#C1272D; font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif; text-align: left;">
+                    
+                                </div>
+                <!--END ADSSP-->
+                <input type="submit" name="submit" class="signInInputsubmit" value="Se connecter">               
+                </form>
+            </div>
+        </div>
+    
+
+</body>
+</html>

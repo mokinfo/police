@@ -1,0 +1,10 @@
+Version FPDF de ce tutoriel 1.82 (07/12/2019)
+Source : https://www.webtolosa.com/2019/12/20/creer-un-fichier-pdf-en-php-avec-fpdf/
+
+====================
+Mode d'emploi :
+- installer tous les fichiers sur la racine du serveur
+- installer la base des données test.sql
+
+
+MERCI DE CITER VOTRE SOURCE SI VOUS UTILISEZ CE CODE !

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire avec Affichage Conditionnel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#maladi').hide(); // Masquer le champ "maladi" au début
+            $('#traitsom').change(function(){
+                if($(this).val() === 'OUI') {
+                    $('#maladi').show();
+                } else {
+                    $('#maladi').hide();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+                <label for="traitsom">Avez-vous une maladie?</label>
+                <select id="traitsom" name="question" class="form-control">
+                    <option value="OUI">Oui</option>
+                    <option value="NON">Non</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="maladi">Quelle maladie?</label>
+                <select id="maladi" name="maladi" class="form-control">
+                    <option value="Choléra">Choléra</option>
+                    <option value="Chikungunya">Chikungunya</option>
+                    <option value="Covid-19">Covid-19</option>
+                    <option value="DS">Diarrhées Sanglantes</option>
+                    <option value="DAA">Diarrhées Aqueuses Aigue</option>
+                    <option value="Polio">Polio</option>
+                    <option value="SG">Syndrome Grippal</option>
+                    <

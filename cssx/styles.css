@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+.errormessage{
+    font-size:12px;
+    color:#C1272D;
+    font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+.signInInputLabel{
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+.signInInputText{
+    width: 250px;
+    height: 24px;
+    float: left;
+    font-family:'Segoe UI Semilight', 'Segoe WP Semilight', 'Segoe UI WPC Semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+}
+.signInInputsubmit{
+    width: 250px;
+    background: url('conima.png') no-repeat;
+    border: none;
+    height: 24px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Lato';
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+    color: #2e7438;
+    line-height: 20px;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.gauch {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #17a5e9;
+}
+.imgLnk{
+    float: left;
+}
+.content {
+    text-align: center;
+    display: inline-block;
+}
+.signinTxt{
+    font-size: 22px;
+    color: #2e7438;
+    font-weight: bold;
+    padding-left: 15px;
+    float: left;
+    line-height: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 96px;
+    color: #17a5e9;
+}
+
+.mok{
+    background: url('images/gen.png') no-repeat;
+}
